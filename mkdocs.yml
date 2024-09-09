@@ -1,4 +1,36 @@
 site_name: Dexter Documentation
 site_url: https://docs.getdexter.co
+
+repo_url: https://github.com/getdexter/documentation
+repo_name: getdexter/documentation
+edit_uri: edit/main/docs/
+
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - content.action.edit
