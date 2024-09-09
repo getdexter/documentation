@@ -1,0 +1,4 @@
+site_name: Dexter Documentation
+site_url: https://docs.getdexter.co
+theme:
+  name: material
