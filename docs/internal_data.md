@@ -5,6 +5,7 @@ subtitle: Regardless of where your data is, you can access it in Dexter.
 ---
 
 Regardless of where your data is, you can access it in Dexter. We offer multiple ways to integrate with your internal data sources:
+
 - HTTP
 - Database Apps
 - Webhooks
