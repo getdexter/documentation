@@ -22,7 +22,7 @@ You can share secrets with Dexter using public-key cryptography. Here's how it w
 1. Download Dexter's public key
 1. Encrypt the secret using `openssl` and Dexter's public key
 
-    ```bash
+    ```
     openssl pkeyutl -encrypt -pubin -inkey dexter.pub -in secret.txt -out secret.enc
     ```
 
