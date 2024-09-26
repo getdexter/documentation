@@ -34,3 +34,8 @@ theme:
         name: Switch to system preference
   features:
     - content.action.edit
+
+plugins:
+  - mkdocs-simple-hooks:
+      hooks:
+        on_post_build: "docs.hooks:copy_privacy_policy"
